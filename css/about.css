@@ -33,6 +33,11 @@ html {
   font-family: Arial, sans-serif, Helvetica, Verdana;
 }
 
+a[href^="tel"] {
+  color: inherit;
+  text-decoration: none;
+}
+
 table , td, th {
 	border: none;
 }
@@ -648,4 +653,5 @@ table , td, th {
     max-width: unset;
   }
 }
+
 
